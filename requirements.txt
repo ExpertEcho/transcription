@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+openai-whisper
+# CUDA-enabled PyTorch and related packages (for RTX 4050, CUDA 12.x)
+
+ffmpeg-python
+pydantic
+python-json-logger
+aiofiles
+numpy
+librosa
+soundfile
+
+# IMPORTANT: To install torch/torchvision/torchaudio with CUDA support, use:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
